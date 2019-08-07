@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Sky Tracker</string>
+    <string name="buttonStart">Start App</string>
+    <string-array name="Country">
+        <item></item>
+        <item>Canada</item>
+        <item>Brazil</item>
+        <item>Russia</item>
+    </string-array>
+    <string-array name="Canada">
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Calgary</item>
+    </string-array>
+    <string-array name="Brazil">
+        <item>Sao Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Belo Horizonte</item>
+    </string-array>
+    <string-array name="Russia">
+        <item>Moscow</item>
+    </string-array>
+    <string-array name="Toronto">
+        <item>Toronto Pearson International Airport - YYZ</item>
+    </string-array>
+    <string-array name="Vancouver">
+        <item>Vancouver International Airport - YVR</item>
+    </string-array>
+    <string-array name="Calgary">
+        <item>Calgary International Airport - YYC</item>
+    </string-array>
+    <string-array name="SaoPaulo">
+        <item>Guarulhos International Airport - GRU</item>
+    </string-array>
+    <string-array name="RioDeJaneiro">
+        <item>Galeão International Airport - GIG</item>
+    </string-array>
+    <string-array name="BeloHorizonte">
+        <item>Tancredo Neves International Airport - CNF</item>
+    </string-array>
+    <string-array name="Moscow">
+        <item>Sheremetyevo International Airport - SVO</item>
+        <item>Vnukovo International Airport - VKO</item>
+        <item>Moscow Domodedovo Airport - DME</item>
+    </string-array>
+</resources>

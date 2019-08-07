@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLatitude"
+        android:layout_alignStart="@+id/txtdepart"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="19dp"
+        android:text="Altitude:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAltitudetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLatitude"
+        android:layout_alignStart="@+id/txtdepartText"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="19dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imgMap"
+        android:layout_width="106dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/generalmaps" />
+
+    <TextView
+        android:id="@+id/txtdepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgMap"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="123dp"
+        android:text="Departure: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtArrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdepart"
+        android:layout_alignStart="@+id/txtdepart"
+        android:text="Arrival:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtArrival"
+        android:layout_alignStart="@+id/txtdepart"
+        android:text="Latitude:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLatitude"
+        android:layout_alignStart="@+id/txtdepart"
+        android:text="Longitude:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLongitude"
+        android:layout_alignStart="@+id/txtdepart"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="19dp"
+        android:text="Speed:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtdepartText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgMap"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="132dp"
+        android:contentDescription="departure"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtArrivalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdepart"
+        android:layout_alignEnd="@+id/txtdepartText"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtLatitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtArrival"
+        android:layout_alignStart="@+id/txtdepartText"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtLongitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLatitude"
+        android:layout_alignStart="@+id/txtdepartText"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtSpeedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtdepartText"
+        android:layout_alignBottom="@+id/txtSpeed"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="0dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSpeed"
+        android:layout_alignStart="@+id/txtdepart"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:text="Status:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtdepartText"
+        android:layout_alignBottom="@+id/txtStatus"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="0dp"
+        android:text="TextView" />
+
+</RelativeLayout>

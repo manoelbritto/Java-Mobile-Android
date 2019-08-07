@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Aug 06 17:47:51 EDT 2019
+1.base=C\:\\Repository\\Java-Mobile-Android\\Project-App-RestAPI-SkyTrack\\Mobile\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Repository\\Java-Mobile-Android\\Project-App-RestAPI-SkyTrack\\Mobile\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=classes.dex
